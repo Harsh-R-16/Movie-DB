@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Movie DB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <img src="https://the-movie-db2.vercel.app/svgs/TMDB_LOGO.svg" id="logo" alt="">
+        <div>
+            <img src="images/search.svg" alt="logo-img" id="search-img">
+            <input type="text" placeholder="Search Movies...">
+        </div>
+    </nav>
+    <aside>
+        <div>
+            <img src="images/trending.svg" alt="icon-img">
+            <p>Trending</p>
+        </div>
+        <div>
+            <img src="images/play.svg" alt="icon-img">
+            <p>Now Playing</p>
+        </div>
+        <div>
+            <img src="images/trending.svg" alt="icon-img">
+            <p>Popular</p>
+        </div>
+        <div>
+            <img src="images/star.svg" alt="icon-img">
+            <p>Top Rated</p>
+        </div>
+        <div>
+            <img src="images/trending.svg" alt="icon-img">
+            <p>Upcoming</p>
+        </div>
+    </aside>
+    <section>
+        <h1>Popular Movies</h1>
+        <article></article>
+        <div>
+            <button>Previous</button>
+            <button>Next</button>
+        </div>
+    </section>
+    <article id="singleMovie" class="display">
+        <div>
+            <img src="https://image.tmdb.org/t/p/w220_and_h330_face/2CAL2433ZeIihfX1Hb2139CX0pW.jpg" alt="">
+            <summary>
+                <h2>
+                    <button>X</button>
+                    Dilwale Dulhania Le Jayenge Harsh
+                </h2>
+                <p>Genres: Comedy, Drama, Romance</p>
+                <p> Runtime: 190 min</p>
+                <p>Release date: 1995-10-20</p>
+                <h3>Overview</h3>
+                <h4>Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of
+                    Chaudhary Baldev Singh, who in
+                    spite of being an NRI is very strict about adherence to Indian values. Simran has left for India
+                    to be married to her
+                    childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under
+                    the noses of her whole
+                    family. Thus begins a saga.</h4>
+            </summary>
+        </div>
+    </article>
+    <script src="navbar.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
