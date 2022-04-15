@@ -8,7 +8,7 @@ Created Movie Search Website using themoviedb Api. Created a Single Movie Page. 
 
 # Deployed link of the Website
 
-> [Netmeds.com](https://movie-db-harsh.netlify.app/)
+> [MovieDB.com](https://movie-db-harsh.netlify.app/)
 
 # Technology Used
 
