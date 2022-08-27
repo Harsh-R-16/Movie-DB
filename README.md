@@ -10,7 +10,7 @@ Created Movie Search Website using themoviedb Api. Created a Single Movie Page. 
 
 > [MovieDB.com](https://movie-db-harsh.netlify.app/)
 
-# Technology Used
+# Created With
 
 1. HTML
 2. CSS
